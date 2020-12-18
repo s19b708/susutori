@@ -7,7 +7,11 @@
     tools:context=".MainActivity">
 
 
-
-
-
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="285dp"
+        android:layout_height="102dp"
+        android:src="@drawable/susutori"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="613dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
