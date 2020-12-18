@@ -14,4 +14,15 @@
         android:src="@drawable/boxin"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="621dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="326dp"
+        android:layout_height="299dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/tap_heart"
+        android:tint="#00FFFFFF"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="200dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
