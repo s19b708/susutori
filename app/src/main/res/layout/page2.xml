@@ -13,7 +13,8 @@
         android:layout_height="94dp"
         android:src="@drawable/boxin"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="621dp" />
+        tools:layout_editor_absoluteY="621dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -23,6 +24,7 @@
         android:src="@drawable/tap_heart"
         android:tint="#00FFFFFF"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="200dp" />
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
