@@ -1,36 +1,23 @@
 package jp.ac.shohoku.s19b708.susutorikibako;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-
-public class MainActivity extends Activity {
-
-    private TextView textview;
-    private int mLike = 0;
+public class ThirdActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.page2);
         // ボタンを押したときにイベントを取得できるようにする
-        ImageButton nextButton = findViewById(R.id.imageButton);
+        ImageButton nextButton = findViewById(R.id.imageButton2);
         nextButton.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), SecondActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
-
     }
-
-
 }

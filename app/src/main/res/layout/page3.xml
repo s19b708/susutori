@@ -8,16 +8,8 @@
     android:oneshot="false"
     android:visible="true">
 
-    <ImageView
-        android:id="@+id/gifView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-26dp"
-        tools:layout_editor_absoluteY="213dp" />
-
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton3"
         android:layout_width="285dp"
         android:layout_height="102dp"
         android:src="@drawable/susutori"
