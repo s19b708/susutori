@@ -7,11 +7,14 @@
     tools:context=".MainActivity">
 
 
+
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="275dp"
         android:layout_height="97dp"
         android:src="@drawable/end"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="618dp" />
+        tools:layout_editor_absoluteY="618dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

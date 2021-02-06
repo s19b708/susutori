@@ -4,8 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:oneshot="false"
+    android:visible="true">
 
+    <ImageView
+        android:id="@+id/gifView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="213dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -13,5 +22,7 @@
         android:layout_height="102dp"
         android:src="@drawable/susutori"
         tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="613dp" />
+        tools:layout_editor_absoluteY="613dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -28,4 +28,16 @@ public class MainActivity extends Activity {
         });
 
     }
+
+    ImageView imageView = (ImageView) findViewById(R.id.gifView);
+    GlideDrawableImageViewTarget target = new GlideDrawableImageViewTarget(imageView);
+        Glide.with(this).load(R.raw.lane).
+
+    <target>
+
+    void into(target) {
+
+    }
+
+
 }
